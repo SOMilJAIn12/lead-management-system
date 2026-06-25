@@ -7,8 +7,8 @@
  * place.
  */
 import axios from "axios";
-
 const API_URL = import.meta.env.VITE_API_URL || "https://lead-management-system-p4ci.onrender.com";
+
 
 const apiClient = axios.create({
   baseURL: API_URL,
